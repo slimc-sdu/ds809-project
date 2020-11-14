@@ -81,7 +81,6 @@ def create_model():
     return model
 
 
-
 train_data, val_data = datasets()
 model = create_model()
 

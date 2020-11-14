@@ -3,9 +3,10 @@ import os
 import numpy as np
 
 
-DATASET_ROOT_DIR = '../dataset'
+DATASET_ROOT_DIR = 'dataset'
 DATASET_SUBSETS = ['train', 'validation', 'test']
 CLASSES = ['cat', 'dog']
+
 
 
 def get_files_from_folder(path):
